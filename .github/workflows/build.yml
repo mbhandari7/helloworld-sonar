@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master # or the name of your main branch
+      - plugcheckin
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
